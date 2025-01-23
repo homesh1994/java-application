@@ -6,6 +6,7 @@
     <groupId>MyFirstJavaProject</groupId>
     <artifactId>MyFirstJavaProject</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>  <!-- Added packaging type -->
 
     <build>
         <sourceDirectory>src/main/java</sourceDirectory>
@@ -29,7 +30,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.app.App</mainClass>
+                            <mainClass>com.app.App</mainClass>  <!-- Ensure this is the correct main class -->
                         </manifest>
                     </archive>
                 </configuration>
@@ -38,11 +39,12 @@
     </build>
 
     <dependencies>
-        <!-- Add dependencies if required -->
-         
+        <!-- JUnit for testing -->
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
             <scope>test</scope>    
+        </dependency>
     </dependencies>
 </project>

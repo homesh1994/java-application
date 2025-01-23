@@ -6,7 +6,7 @@
     <groupId>MyFirstJavaProject</groupId>
     <artifactId>MyFirstJavaProject</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>  <!-- Added packaging type -->
+    <packaging>jar</packaging> <!-- Packaging type for JAR file -->
 
     <build>
         <sourceDirectory>src/main/java</sourceDirectory>
@@ -30,7 +30,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.app.App</mainClass>  <!-- Ensure this is the correct main class -->
+                            <mainClass>com.app.App</mainClass> <!-- Ensure this is the correct main class -->
                         </manifest>
                     </archive>
                 </configuration>
